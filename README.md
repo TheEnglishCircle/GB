@@ -17,7 +17,7 @@ https://giucin.github.io/TheEnglishCircleGB/foundations/nouns.html
 
 ## What is included
 
-- index.html: homepage with a collapsed Foundations Boot Camp course menu and future level sections.
+- index.html: homepage with an initially open Foundations Boot Camp course menu and future level sections.
 - foundations/nouns.html: video and interactive practice based on U02_L01_Nouns_Practice.pdf.
 - assets/style.css: shared visual design.
 - assets/nouns.js: immediate feedback, progress, score, answer key, reset and browser-local persistence.
@@ -42,3 +42,22 @@ YouTube error 153 indicates missing client identification (HTTP Referer). A loca
 ## Updating from the first version
 
 Upload these new files over the old ones in the same repository. The PDF and its download links have been removed from this package. If you already uploaded the previous version to GitHub, uploading alone does not delete old files: remove downloads/U02_L01_Nouns_Practice.pdf from the repository to reclaim its space. The old assets/*.png are also no longer referenced and can be removed; keep the new WebP files.
+
+## Lesson 2 update
+
+- New page: foundations/more-nouns.html.
+- New script: assets/more-nouns.js; storage key tec-more-nouns-v1 is separate from lesson 1.
+- New optimized artwork: assets/l02-*.webp and assets/more-nouns-cover.webp.
+- Video: https://youtu.be/IOLmSqIQhAk
+- Activities: 8 picture matches, 8 category selections (two nouns per category), 4 noun selections in phrases, 4 typed memory answers; 24 points in total. Personal phrases and speaking are self-assessed.
+- Recall words are checked with the button or Enter. Capitalization and extra surrounding spaces are ignored; spelling is checked. Editing a checked word clears that item's score until checked again.
+- Memory mode hides the earlier exercises and closes the answer key.
+- The homepage now lists both lessons, opens Boot Camp by default, uses a larger labeled toggle, and removes the irregular background behind the badge.
+- Lesson 1 links forward to lesson 2; lesson 2 links back.
+- PDF files are not included.
+
+### Cómo actualizar la web
+
+Descomprime el ZIP y sube su contenido al mismo repositorio, conservando las carpetas. Sustituye los archivos que tengan el mismo nombre y confirma los cambios. No borres el repositorio ni cambies los nombres de las páginas existentes.
+
+La página nueva será foundations/more-nouns.html dentro de tu web, una vez publicada la actualización.
